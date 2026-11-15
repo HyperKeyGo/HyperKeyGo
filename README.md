@@ -2,7 +2,9 @@
 
 # HyperGo
 
-**把 Tab 键变成 Hyper 键 · 按住 Tab + 字母，瞬间唤起任意应用**
+**一键，直达所有应用。**
+
+把 `Tab` 变成 Hyper 键 —— 按住它，再按一个字母，应用即刻就位，**即使它在另一个桌面空间**
 
 macOS 键盘效率工具 · 桌面上还有一只会陪你工作的小猫
 
@@ -10,10 +12,9 @@ macOS 键盘效率工具 · 桌面上还有一只会陪你工作的小猫
 [![平台](https://img.shields.io/badge/macOS-13%2B-lightgrey)](../../releases)
 [![架构](https://img.shields.io/badge/Apple%20Silicon%20%7C%20Intel-通用-orange)](../../releases)
 
-[下载最新版](../../releases/latest) · [使用说明](#使用说明) · [常见问题](#常见问题)
+[下载最新版](../../releases/latest) · [三步上手](#三步上手) · [常见问题](#常见问题)
 
-<!-- 建议在这里放一张演示 GIF：按住 Tab → 小猫拍爪 → Finder 弹出 -->
-<!-- ![demo](docs/demo.gif) -->
+<img src="docs/keys-hero.png" width="720" alt="Tab + F → Finder，瞬间唤起 Finder">
 
 </div>
 
@@ -23,25 +24,25 @@ macOS 键盘效率工具 · 桌面上还有一只会陪你工作的小猫
 
 **HyperGo** 做两件事：
 
-**① Hyper 键** —— 按住 `Tab`（或 `\`）再按一个字母，直接跳转到你指定的应用。
-比如 `Tab + F` 一秒切到 Finder，`Tab + S` 切到 Safari。不用 Cmd+Tab 翻找，不用 Mission Control，不用碰鼠标。
+**① Hyper 键** —— 按住 `Tab`（左手）或 `\`（右手），再按一个字母，应用启动或瞬间跳到你当前的桌面。
+`Tab + F` 一秒切到 Finder，`Tab + S` 切到 Safari。不用 Cmd+Tab 翻找，不用 Mission Control，不用碰鼠标——**是应用过来找你，而不是你去找它**，跨 Space 也是一次按键完成。
 
 **② 桌面小猫** —— 一只趴在你桌面右下角的小猫，陪你工作。
 它会呼吸、眨眼、伸懒腰。你按住 Tab 的时候它会睁眼，成功唤起应用时它会拍爪庆祝。20 秒不理它，它会自己起身走出屏幕去休息——零打扰，零资源占用。
 
 <div align="center">
 
-<!-- 截图占位：截好后放 docs/screenshot-cat.png，并取消下一行注释 -->
-<!-- ![cat](docs/screenshot-cat.png) -->
+<img src="docs/cat.png" width="180" alt="会陪你工作、拍爪庆祝的桌面小猫">
 
 </div>
 
 ## 功能特性
 
-- ⌨️ **Hyper 键**：Tab 或 `\` + 任意字母，唤起或切换到你设定的应用
-- 🖱️ **一秒添加快捷键**：选字母 → 选 App，完事
+- ⌨️ **双基键，零适应成本**：左手 `Tab`、右手 `\`；单按任何一个，都仍是普通按键
+- ✨ **跨空间切换**：无论目标应用在哪个桌面空间，一次按键唤到眼前
 - 🐱 **桌面小猫**：陪你工作的小伙伴——你打字时它呼吸眨眼，唤起应用时它拍爪庆祝
 - 🚶 **懂事的小猫**：20 秒不理它就自己走出屏幕休眠，屏幕睡眠时自动暂停，唤醒后自动回来
+- 🪶 **原生轻量**：纯 Swift、单个事件监听、常驻菜单栏。无 Electron、无后台守护进程
 - 🔇 **完全静默**：无网络请求、无数据上传、无遥测，所有数据只存在本地
 - 🚀 **开机自启**：登录项自动启动，监听自动开启，配置自动加载
 - 💤 **不挡熄屏**：不会阻止屏幕正常休眠
@@ -69,12 +70,30 @@ xattr -cr /Applications/HyperGo.app
 
 </details>
 
-## 使用说明
+## 三步上手
+
+<div align="center">
+
+<img src="docs/how-it-works.png" width="860" alt="三步上手：按住基键 → 再按字母 → 应用直达">
+
+</div>
+
+首次启动时，应用内教程会带你完整走一遍。
 
 ### 设置快捷键
 
 打开 HyperGo → 点「Add Shortcut」→ 按一个字母键 → 选择目标应用 → 完成。
 之后 **按住 Tab + 字母** 即可瞬间唤起。可随时修改或删除。
+
+### 预置快捷键（开箱即用）
+
+首次启动已预置五条快捷键，其余 31 个键位等你定义：
+
+| 按键 | 直达 | 按键 | 直达 |
+|---|---|---|---|
+| `Tab` + `F` | Finder | `\` + `C` | VS Code |
+| `Tab` + `S` | Safari | `\` + `K` | Terminal |
+| `Tab` + `N` | Notes | | |
 
 ### 桌面小猫
 
@@ -92,6 +111,7 @@ xattr -cr /Applications/HyperGo.app
 | Show Tutorial | 重新播放新手教程 |
 | Pet: On/Off | 召回/隐藏桌面小猫 |
 | Auto Leave | 小猫闲置自动离场的时长 |
+| 赏杯咖啡 ☕ | 请作者喝杯咖啡 |
 | Quit HyperGo | 退出 |
 
 ## 系统要求
@@ -157,5 +177,7 @@ SwiftUI + AppKit · AVFoundation · CGEvent Tap · Vision · 无第三方依赖
 **如果觉得好用，请给个 Star ⭐**
 
 *HyperGo · 让每个按键都有归属*
+
+*一个人、一把键盘做出来的产品。*
 
 </div>
