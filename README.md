@@ -1,5 +1,7 @@
 <div align="center">
 
+**简体中文** · [English](./README.en.md)
+
 # HyperGo
 
 **一键，直达所有应用。**
@@ -165,6 +167,14 @@ HyperGo 常驻菜单栏之外，还会派一只小猫趴在你桌面右下角陪
 SwiftUI + AppKit · AVFoundation · CGEvent Tap · Vision · 无第三方依赖
 
 ---
+
+## 反馈与建议
+
+- 🐛 **遇到 Bug** → [提交 Issue](../../issues/new/choose)，选个模板照着填就行（版本 / 芯片 / 系统三项必填，定位问题快很多）
+- 💡 **想法与建议** → [Discussions 讨论区](../../discussions)，功能畅想、使用心得，随便聊
+- 📮 每一条反馈都会认真看，修复进度也会在 Issue 里同步
+
+<!-- 可选渠道，需要时取消注释：反馈邮箱 / 问卷链接 / 微信群二维码 -->
 
 ## 赞助支持 ☕
 

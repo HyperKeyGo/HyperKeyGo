@@ -1,0 +1,49 @@
+name: 🐛 Bug 反馈 / Bug report
+description: Hyper 键没反应？小猫不乖？在这里告诉我们
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！信息越全，修复越快。/ Thanks for the report — the more detail, the faster the fix.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: 发生了什么？/ What happened?
+      description: 问题现象 + 你期望的行为 / What you saw, and what you expected
+      placeholder: 按住 Tab + F 没有切换到 Finder，菜单栏 Listener 显示 On……
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤 / Steps to reproduce (optional)
+      placeholder: |
+        1. 打开 HyperGo
+        2. 添加快捷键
+        3. 按住 Tab + F
+  - type: dropdown
+    id: version
+    attributes:
+      label: HyperGo 版本 / App version
+      options:
+        - "1.2.0"
+        - "1.1.x 或更早 / or earlier"
+    validations:
+      required: true
+  - type: dropdown
+    id: chip
+    attributes:
+      label: 芯片 / Chip
+      options:
+        - Apple Silicon (M 系列)
+        - Intel
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS 版本 / macOS version
+      placeholder: "例如 14.5 (Sonoma)"
+    validations:
+      required: true

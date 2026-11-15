@@ -1,0 +1,26 @@
+name: 💡 功能建议 / Feature request
+description: 希望支持自定义修饰键？希望小猫更活泼？说来听听
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        开放式的想法也欢迎发到 [Discussions](https://github.com/HyperKeyGo/HyperKeyGo/discussions)。
+        Open-ended ideas are welcome in Discussions too.
+  - type: textarea
+    id: problem
+    attributes:
+      label: 你想解决什么问题？/ What problem would this solve?
+      placeholder: 我习惯用 Caps Lock 做 Hyper 键，希望可以自定义基键……
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你期望的方案 / Your ideal solution (optional)
+  - type: checkboxes
+    id: will-pr
+    attributes:
+      label: 愿意参与 / Would you help?
+      options:
+        - label: 我可以帮忙测试 / I can help test
