@@ -180,9 +180,8 @@ SwiftUI + AppKit · AVFoundation · CGEvent Tap · Vision · 无第三方依赖
 
 如果 HyperGo 帮你省下了时间，可以考虑请作者喝杯咖啡——每一杯都是继续更新的动力：
 
-<!-- 发布前把 docs/sponsor.png 替换为你的赞赏码海报（微信 + 支付宝合成图，make_sponsor_poster.py 生成），然后取消下方注释 -->
 <p align="center">
-  <!-- <img src="docs/sponsor.png" width="300" alt="赞赏码"> -->
+  <img src="docs/sponsor.png" width="300" alt="赞赏码">
 </p>
 
 ---
