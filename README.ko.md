@@ -181,7 +181,7 @@ SwiftUI + AppKit · AVFoundation · CGEvent Tap · Vision · 서드파티 의존
 HyperGo가 시간을 아껴주었다면, 개발자에게 커피 한 잔을 사주는 것도 좋습니다 —— 모든 잔이 다음 업데이트의 원동력입니다:
 
 <p align="center">
-  <img src="docs/sponsor.png" width="300" alt="Tip QR — WeChat(왼쪽) / Alipay(오른쪽)">
+  <img src="docs/sponsor-en.png" width="420" alt="Tip QR — WeChat(왼쪽) / Alipay(오른쪽)">
 </p>
 
 ---

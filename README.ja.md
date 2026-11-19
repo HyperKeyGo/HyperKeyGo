@@ -181,7 +181,7 @@ SwiftUI + AppKit · AVFoundation · CGEvent Tap · Vision · サードパーテ�
 HyperGo が時間を節約してくれたと感じたら、開発者にコーヒーをおごってみてください —— 一杯一杯が次のアップデートの原動力です：
 
 <p align="center">
-  <img src="docs/sponsor.png" width="300" alt="Tip QR — WeChat（左）/ Alipay（右）">
+  <img src="docs/sponsor-en.png" width="420" alt="Tip QR — WeChat（左）/ Alipay（右）">
 </p>
 
 ---
