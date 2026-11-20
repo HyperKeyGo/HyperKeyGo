@@ -12,7 +12,7 @@
 [![プラットフォーム](https://img.shields.io/badge/macOS-13%2B-lightgrey)](../../releases)
 [![アーキテクチャ](https://img.shields.io/badge/Apple%20Silicon%20%7C%20Intel-universal-orange)](../../releases)
 
-[最新版をダウンロード](../../releases/latest) · [クイックスタート](#クイックスタート) · [FAQ](#faq)
+[最新版をダウンロード](../../releases/latest) · [クイックスタート](#クイックスタート) · [FAQ](#faq) · [☕ サポート](#サポート)
 
 <img src="docs/demo.gif" width="720" alt="デモ：Tab + F を押すだけで Finder が即座に現れます">
 

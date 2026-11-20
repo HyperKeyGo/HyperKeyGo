@@ -12,7 +12,7 @@ Turn `Tab` into a Hyper key — hold it, press a letter, and the app is there.
 [![Platform](https://img.shields.io/badge/macOS-13%2B-lightgrey)](../../releases)
 [![Arch](https://img.shields.io/badge/Apple%20Silicon%20%7C%20Intel-universal-orange)](../../releases)
 
-[Download latest](../../releases/latest) · [Quick start](#quick-start) · [FAQ](#faq)
+[Download latest](../../releases/latest) · [Quick start](#quick-start) · [FAQ](#faq) · [☕ Support](#support)
 
 <img src="docs/demo.gif" width="720" alt="Demo: hold Tab + F, Finder appears instantly">
 

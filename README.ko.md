@@ -12,7 +12,7 @@
 [![플랫폼](https://img.shields.io/badge/macOS-13%2B-lightgrey)](../../releases)
 [![아키텍처](https://img.shields.io/badge/Apple%20Silicon%20%7C%20Intel-universal-orange)](../../releases)
 
-[최신 버전 다운로드](../../releases/latest) · [빠른 시작](#빠른-시작) · [FAQ](#faq)
+[최신 버전 다운로드](../../releases/latest) · [빠른 시작](#빠른-시작) · [FAQ](#faq) · [☕ 후원](#후원)
 
 <img src="docs/demo.gif" width="720" alt="데모: Tab + F를 누르면 Finder가 즉시 나타납니다">
 

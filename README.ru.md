@@ -12,7 +12,7 @@ HyperGo превращает `Tab` в Hyper-клавишу — удержива�
 [![Платформа](https://img.shields.io/badge/macOS-13%2B-lightgrey)](../../releases)
 [![Архитектура](https://img.shields.io/badge/Apple%20Silicon%20%7C%20Intel-universal-orange)](../../releases)
 
-[Скачать последнюю версию](../../releases/latest) · [Быстрый старт](#быстрый-старт) · [FAQ](#faq)
+[Скачать последнюю версию](../../releases/latest) · [Быстрый старт](#быстрый-старт) · [FAQ](#faq) · [☕ Поддержать](#поддержка)
 
 <img src="docs/demo.gif" width="720" alt="Демо: удержите Tab + F — Finder открывается мгновенно">
 

@@ -12,7 +12,7 @@
 [![平台](https://img.shields.io/badge/macOS-13%2B-lightgrey)](../../releases)
 [![架构](https://img.shields.io/badge/Apple%20Silicon%20%7C%20Intel-通用-orange)](../../releases)
 
-[下载最新版](../../releases/latest) · [三步上手](#三步上手) · [常见问题](#常见问题)
+[下载最新版](../../releases/latest) · [三步上手](#三步上手) · [常见问题](#常见问题) · [☕ 赞助支持](#赞助支持)
 
 <img src="docs/demo.gif" width="720" alt="演示动画：按住 Tab + F，Finder 瞬间就位">
 
