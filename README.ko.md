@@ -44,6 +44,8 @@
 
 [**Releases 페이지**](../../releases/latest)에서 `HyperGo-1.2.0.dmg`를 받아주세요.
 
+> 🇨🇳 중국에서는 **[Gitee 미러](https://gitee.com/hyperkeygo/HyperGo/releases)** 가 더 빠릅니다 (내용 동일)
+
 <details>
 <summary><b>첫 실행 방법 (중요 — 미서명 베타)</b></summary>
 

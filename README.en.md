@@ -44,6 +44,8 @@ That's it. If you've seen the animation above, you already know how to use Hyper
 
 Grab `HyperGo-1.2.0.dmg` from the [**Releases page**](../../releases/latest).
 
+> 🇨🇳 Faster in China: **[Gitee mirror](https://gitee.com/hyperkeygo/HyperGo/releases)** (identical content)
+
 <details>
 <summary><b>First launch (important — unsigned beta)</b></summary>
 

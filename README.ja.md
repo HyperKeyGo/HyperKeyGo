@@ -44,6 +44,8 @@
 
 [**Releases ページ**](../../releases/latest) から `HyperGo-1.2.0.dmg` をダウンロードしてください。
 
+> 🇨🇳 中国国内からは **[Gitee ミラー](https://gitee.com/hyperkeygo/HyperGo/releases)** が高速です（内容は同一）
+
 <details>
 <summary><b>初回起動の方法（重要 — 未署名ベータのため）</b></summary>
 

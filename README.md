@@ -44,6 +44,8 @@
 
 前往 [**Releases 页面**](../../releases/latest) 下载 `HyperGo-1.2.0.dmg`。
 
+> 🇨🇳 国内下载更快：**[Gitee 发行版](https://gitee.com/hyperkeygo/HyperGo/releases)**（内容与 GitHub 完全一致）
+
 <details>
 <summary><b>首次打开方法（重要，请看这里）</b></summary>
 

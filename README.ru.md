@@ -44,6 +44,8 @@ HyperGo превращает `Tab` в Hyper-клавишу — удержива�
 
 Скачайте `HyperGo-1.2.0.dmg` со [**страницы Releases**](../../releases/latest).
 
+> 🇨🇳 В Китае быстрее: **[зеркало Gitee](https://gitee.com/hyperkeygo/HyperGo/releases)** (содержимое идентично)
+
 <details>
 <summary><b>Первый запуск (важно — неподписанная бета)</b></summary>
 
